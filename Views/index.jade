@@ -1,0 +1,115 @@
+﻿extends layout
+
+block header
+    .form-inline
+        .form-group
+            label(for="BaseDate") 日期
+        .form-group.mx-sm-3
+            input#BaseDate.form-control(type="text" name="BaseDate" style="width:220px;margin-left:10px;margin-right:10px;")
+        .form-group
+            button#Search.btn.btn-light(type='button') 查詢
+
+block content
+    .form-inline
+        .form-group
+            table.table.table-bordered.table-ortt
+                thead
+                    tr
+                        th.ortt1
+                        th(colspan="4") 上銀
+                    tr
+                        th.ortt1 日期
+                        th USD 買入
+                        th USD 賣出
+                        th EUR 買入
+                        th EUR 賣出
+                tbody#ortt1
+        .form-group
+            table.table.table-bordered.table-ortt
+                thead
+                    tr
+                        th.ortt2 
+                        th(colspan="4") 兆豐
+                    tr
+                        th.ortt2 日期
+                        th USD 買入
+                        th USD 賣出
+                        th EUR 買入
+                        th EUR 賣出
+                tbody#ortt2
+        .form-group
+            table.table.table-bordered.table-ortt
+                thead
+                    tr
+                        th.ortt3 
+                        th(colspan="5") 交叉匯率
+                    tr
+                        th.ortt3 日期
+                        th USD > EUR
+                        th EUR > USD
+                        th USD > RMB
+                        th EUR > RMB
+                        th USD > VND
+                tbody#ortt3
+block script
+    script(type='text/javascript').
+        $(document).ready(function () {
+            $('#BaseDate').datepicker({
+                format: "yyyy/mm/dd",
+                language: "zh-TW",
+                autoclose: true,
+                todayHighlight: true
+            });
+            $('#Search').on('click', function () {
+                var sBaseDate = $('#BaseDate').val();
+                if(sBaseDate){
+                    GetQuery(sBaseDate);
+                }else{
+                    alert('請輸入日期');
+                }
+            });
+        });
+            function GetQuery(pBaseDate) {
+                $.ajax({
+                    url: BaseUrl+"/BankORTT/Query",
+                    data: {
+                    BaseDate: pBaseDate
+                    },
+                    type: 'get',
+                    cache: false,
+                    async: false,
+                    dataType:'json',
+                    success: function (result) {
+                        if(result.success){
+                            $('#ortt1,#ortt2,#ortt3').empty();
+                             $.each(result.data,function(index, sRow){
+                                $('#ortt1').append($('<tr></tr>')
+                                .append('<th class="ortt1">'+DateToString(sRow['U_RateDate'])+'</th>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_Bank1USD_B']))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_Bank1USD_S']))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_Bank1EUR_B']))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_Bank1EUR_S']))+'</td>'));
+                                $('#ortt2').append($('<tr></tr>')
+                                .append('<th class="ortt2">'+DateToString(sRow['U_RateDate'])+'</th>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_Bank2USD_B']))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_Bank2USD_S']))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_Bank2EUR_B']))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_Bank2EUR_S']))+'</td>'));
+                                $('#ortt3').append($('<tr></tr>')
+                                .append('<th class="ortt3">'+DateToString(sRow['U_RateDate'])+'</th>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_USDEUR'], 4))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_EURUSD'], 4))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_USDRMB'], 4))+'</td>')
+                                .append('<td>'+CurrencyFormat(DecimalToString(sRow['U_EURRMB'], 4))+'</td>')
+                                .append('<td>'+CurrencyFormat(sRow['U_USDVND'])+'</td>'));
+                            });
+                        }else{
+                           alert(result.message);
+                        }
+                    }
+                });
+            }
+
+    
+
+

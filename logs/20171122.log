@@ -1,0 +1,567 @@
+[2017-11-22T18:48:39.321] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T18:48:46.710] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T18:50:10.221] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T18:52:32.102] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T18:52:37.650] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T19:01:48.346] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T19:03:24.258] [ERROR] ORTTRoute - { RequestError: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:519:15)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+  code: 'EREQUEST',
+  number: 207,
+  lineNumber: 1,
+  state: 1,
+  class: 16,
+  serverName: '99-PC',
+  procName: '',
+  originalError: 
+   { Error: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:517:19)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+     info: 
+      { number: 207,
+        state: 1,
+        class: 16,
+        message: 'Invalid column name \'U_RateDatea\'.',
+        serverName: '99-PC',
+        procName: '',
+        lineNumber: 1,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+[2017-11-22T19:05:29.702] [ERROR] ORTTRoute - { RequestError: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:519:15)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+  code: 'EREQUEST',
+  number: 207,
+  lineNumber: 1,
+  state: 1,
+  class: 16,
+  serverName: '99-PC',
+  procName: '',
+  originalError: 
+   { Error: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:517:19)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+     info: 
+      { number: 207,
+        state: 1,
+        class: 16,
+        message: 'Invalid column name \'U_RateDatea\'.',
+        serverName: '99-PC',
+        procName: '',
+        lineNumber: 1,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+[2017-11-22T19:05:32.530] [ERROR] ORTTRoute - { RequestError: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:519:15)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+  code: 'EREQUEST',
+  number: 207,
+  lineNumber: 1,
+  state: 1,
+  class: 16,
+  serverName: '99-PC',
+  procName: '',
+  originalError: 
+   { Error: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:517:19)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+     info: 
+      { number: 207,
+        state: 1,
+        class: 16,
+        message: 'Invalid column name \'U_RateDatea\'.',
+        serverName: '99-PC',
+        procName: '',
+        lineNumber: 1,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+[2017-11-22T19:05:35.952] [ERROR] ORTTRoute - { RequestError: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:519:15)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+  code: 'EREQUEST',
+  number: 207,
+  lineNumber: 1,
+  state: 1,
+  class: 16,
+  serverName: '99-PC',
+  procName: '',
+  originalError: 
+   { Error: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:517:19)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+     info: 
+      { number: 207,
+        state: 1,
+        class: 16,
+        message: 'Invalid column name \'U_RateDatea\'.',
+        serverName: '99-PC',
+        procName: '',
+        lineNumber: 1,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+[2017-11-22T19:05:59.144] [ERROR] ORTTRoute - { ConnectionError: 使用者 'saa' 的登入失敗。
+    at Connection.tedious.once.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:216:17)
+    at Object.onceWrapper (events.js:324:30)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Connection.processLogin7Response (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1091:16)
+    at Connection.message (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1573:21)
+    at Connection.dispatchEvent (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:857:45)
+    at MessageIO.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:751:18)
+    at emitNone (events.js:115:13)
+    at MessageIO.emit (events.js:218:7)
+  code: 'ELOGIN',
+  originalError: { ConnectionError: 使用者 'saa' 的登入失敗。
+    at ConnectionError (D:\AP\BankORTT\node_modules\tedious\lib\errors.js:12:12)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:506:33)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+    at readableAddChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:271:11)
+    at Parser.Readable.push (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:238:10) message: '使用者 \'saa\' 的登入失敗。', code: 'ELOGIN' },
+  name: 'ConnectionError' }
+[2017-11-22T19:07:50.493] [ERROR] ORTTRoute - { ConnectionError: 使用者 'saa' 的登入失敗。
+    at Connection.tedious.once.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:216:17)
+    at Object.onceWrapper (events.js:324:30)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Connection.processLogin7Response (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1091:16)
+    at Connection.message (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1573:21)
+    at Connection.dispatchEvent (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:857:45)
+    at MessageIO.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:751:18)
+    at emitNone (events.js:115:13)
+    at MessageIO.emit (events.js:218:7)
+  code: 'ELOGIN',
+  originalError: { ConnectionError: 使用者 'saa' 的登入失敗。
+    at ConnectionError (D:\AP\BankORTT\node_modules\tedious\lib\errors.js:12:12)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:506:33)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+    at readableAddChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:271:11)
+    at Parser.Readable.push (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:238:10) message: '使用者 \'saa\' 的登入失敗。', code: 'ELOGIN' },
+  name: 'ConnectionError' }
+[2017-11-22T19:07:54.034] [ERROR] ORTTRoute - { ConnectionError: 使用者 'saa' 的登入失敗。
+    at Connection.tedious.once.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:216:17)
+    at Object.onceWrapper (events.js:324:30)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Connection.processLogin7Response (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1091:16)
+    at Connection.message (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1573:21)
+    at Connection.dispatchEvent (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:857:45)
+    at MessageIO.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:751:18)
+    at emitNone (events.js:115:13)
+    at MessageIO.emit (events.js:218:7)
+  code: 'ELOGIN',
+  originalError: { ConnectionError: 使用者 'saa' 的登入失敗。
+    at ConnectionError (D:\AP\BankORTT\node_modules\tedious\lib\errors.js:12:12)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:506:33)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+    at readableAddChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:271:11)
+    at Parser.Readable.push (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:238:10) message: '使用者 \'saa\' 的登入失敗。', code: 'ELOGIN' },
+  name: 'ConnectionError' }
+[2017-11-22T19:08:16.649] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T19:08:19.563] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T19:08:23.317] [ERROR] ORTTRoute - { ConnectionError: Connection not yet open.
+    at ConnectionPool._acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:181:29)
+    at ConnectionPool.acquire (D:\AP\BankORTT\node_modules\mssql\lib\base.js:172:12)
+    at Immediate._query.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:554:19)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5) code: 'ENOTOPEN', name: 'ConnectionError' }
+[2017-11-22T19:10:14.133] [ERROR] ORTTRoute - { ConnectionError: 使用者 'saa' 的登入失敗。
+    at Connection.tedious.once.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:216:17)
+    at Object.onceWrapper (events.js:324:30)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Connection.processLogin7Response (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1091:16)
+    at Connection.message (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1573:21)
+    at Connection.dispatchEvent (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:857:45)
+    at MessageIO.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:751:18)
+    at emitNone (events.js:115:13)
+    at MessageIO.emit (events.js:218:7)
+  code: 'ELOGIN',
+  originalError: { ConnectionError: 使用者 'saa' 的登入失敗。
+    at ConnectionError (D:\AP\BankORTT\node_modules\tedious\lib\errors.js:12:12)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:506:33)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+    at readableAddChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:271:11)
+    at Parser.Readable.push (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:238:10) message: '使用者 \'saa\' 的登入失敗。', code: 'ELOGIN' },
+  name: 'ConnectionError' }
+[2017-11-22T19:10:17.330] [ERROR] ORTTRoute - { ConnectionError: 使用者 'saa' 的登入失敗。
+    at Connection.tedious.once.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:216:17)
+    at Object.onceWrapper (events.js:324:30)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Connection.processLogin7Response (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1091:16)
+    at Connection.message (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1573:21)
+    at Connection.dispatchEvent (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:857:45)
+    at MessageIO.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:751:18)
+    at emitNone (events.js:115:13)
+    at MessageIO.emit (events.js:218:7)
+  code: 'ELOGIN',
+  originalError: { ConnectionError: 使用者 'saa' 的登入失敗。
+    at ConnectionError (D:\AP\BankORTT\node_modules\tedious\lib\errors.js:12:12)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:506:33)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+    at readableAddChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:271:11)
+    at Parser.Readable.push (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:238:10) message: '使用者 \'saa\' 的登入失敗。', code: 'ELOGIN' },
+  name: 'ConnectionError' }
+[2017-11-22T19:10:28.782] [ERROR] ORTTRoute - { ConnectionError: 使用者 'saa' 的登入失敗。
+    at Connection.tedious.once.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:216:17)
+    at Object.onceWrapper (events.js:324:30)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Connection.processLogin7Response (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1091:16)
+    at Connection.message (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1573:21)
+    at Connection.dispatchEvent (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:857:45)
+    at MessageIO.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:751:18)
+    at emitNone (events.js:115:13)
+    at MessageIO.emit (events.js:218:7)
+  code: 'ELOGIN',
+  originalError: { ConnectionError: 使用者 'saa' 的登入失敗。
+    at ConnectionError (D:\AP\BankORTT\node_modules\tedious\lib\errors.js:12:12)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:506:33)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+    at readableAddChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:271:11)
+    at Parser.Readable.push (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:238:10) message: '使用者 \'saa\' 的登入失敗。', code: 'ELOGIN' },
+  name: 'ConnectionError' }
+[2017-11-22T19:10:32.814] [ERROR] ORTTRoute - { ConnectionError: 使用者 'saa' 的登入失敗。
+    at Connection.tedious.once.err (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:216:17)
+    at Object.onceWrapper (events.js:324:30)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Connection.processLogin7Response (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1091:16)
+    at Connection.message (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:1573:21)
+    at Connection.dispatchEvent (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:857:45)
+    at MessageIO.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:751:18)
+    at emitNone (events.js:115:13)
+    at MessageIO.emit (events.js:218:7)
+  code: 'ELOGIN',
+  originalError: { ConnectionError: 使用者 'saa' 的登入失敗。
+    at ConnectionError (D:\AP\BankORTT\node_modules\tedious\lib\errors.js:12:12)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:506:33)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+    at readableAddChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:271:11)
+    at Parser.Readable.push (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:238:10) message: '使用者 \'saa\' 的登入失敗。', code: 'ELOGIN' },
+  name: 'ConnectionError' }
+[2017-11-22T19:10:42.830] [ERROR] ORTTRoute - { RequestError: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:519:15)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+  code: 'EREQUEST',
+  number: 207,
+  lineNumber: 1,
+  state: 1,
+  class: 16,
+  serverName: '99-PC',
+  procName: '',
+  originalError: 
+   { Error: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:517:19)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+     info: 
+      { number: 207,
+        state: 1,
+        class: 16,
+        message: 'Invalid column name \'U_RateDatea\'.',
+        serverName: '99-PC',
+        procName: '',
+        lineNumber: 1,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+[2017-11-22T19:10:45.983] [ERROR] ORTTRoute - { RequestError: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:519:15)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+  code: 'EREQUEST',
+  number: 207,
+  lineNumber: 1,
+  state: 1,
+  class: 16,
+  serverName: '99-PC',
+  procName: '',
+  originalError: 
+   { Error: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:517:19)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+     info: 
+      { number: 207,
+        state: 1,
+        class: 16,
+        message: 'Invalid column name \'U_RateDatea\'.',
+        serverName: '99-PC',
+        procName: '',
+        lineNumber: 1,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+[2017-11-22T19:10:49.293] [ERROR] ORTTRoute - { RequestError: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:519:15)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+  code: 'EREQUEST',
+  number: 207,
+  lineNumber: 1,
+  state: 1,
+  class: 16,
+  serverName: '99-PC',
+  procName: '',
+  originalError: 
+   { Error: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:517:19)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+     info: 
+      { number: 207,
+        state: 1,
+        class: 16,
+        message: 'Invalid column name \'U_RateDatea\'.',
+        serverName: '99-PC',
+        procName: '',
+        lineNumber: 1,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+[2017-11-22T19:10:52.934] [ERROR] ORTTRoute - { RequestError: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:519:15)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+  code: 'EREQUEST',
+  number: 207,
+  lineNumber: 1,
+  state: 1,
+  class: 16,
+  serverName: '99-PC',
+  procName: '',
+  originalError: 
+   { Error: Invalid column name 'U_RateDatea'.
+    at handleError (D:\AP\BankORTT\node_modules\mssql\lib\tedious.js:517:19)
+    at emitOne (events.js:125:13)
+    at Connection.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\connection.js:489:16)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at Parser.<anonymous> (D:\AP\BankORTT\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:125:13)
+    at Parser.emit (events.js:221:7)
+    at addChunk (D:\AP\BankORTT\node_modules\readable-stream\lib\_stream_readable.js:284:12)
+     info: 
+      { number: 207,
+        state: 1,
+        class: 16,
+        message: 'Invalid column name \'U_RateDatea\'.',
+        serverName: '99-PC',
+        procName: '',
+        lineNumber: 1,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }

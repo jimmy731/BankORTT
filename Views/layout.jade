@@ -1,0 +1,70 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='http://getbootstrap.com/favicon.ico')
+    title Bank ORTT
+    // Bootstrap core CSS
+    link(href='../Public/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+    // Bootstrap datepicker CSS
+    link(href='../Public/bootstrap/datepicker/css/bootstrap-datepicker3.min.css', rel='stylesheet')
+    // Custom styles for this template
+    link(href='../Public/bootstrap/css/sticky-footer-navbar.css', rel='stylesheet')
+    link(href='../Public/css/Site.css', rel='stylesheet')
+    // Just for debugging purposes. Don't actually copy these 2 lines!
+    //
+      if lt IE 9script(src='../Public/bootstrap/assets/js/ie8-responsive-file-warning.js')
+    script(src='../Public/bootstrap/assets/js/ie-emulation-modes-warning.js')
+    // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    //
+      if lt IE 9
+      script(src='https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js')
+      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+  body
+    // Fixed navbar
+    header
+      // Fixed navbar
+      nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
+        a.navbar-brand(href='#') Bank ORTT
+        //button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='true', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarCollapse.navbar-collapse.collapse.show(style='')
+          ul.navbar-nav.mr-auto
+            //li.nav-item.active
+              //a.nav-link(href='#')
+                //| Home 
+                //span.sr-only (current)
+            //li.nav-item
+              //a.nav-link(href='#') Link
+            //li.nav-item
+              //a.nav-link.disabled(href='#') Disabled
+    // Begin page content
+    .main.container(role='main')
+      .mt-3
+        block header
+      .mt-3
+        block content
+        
+    footer.footer
+      .container
+        span.text-muted 2017
+    //Bootstrap core JavaScript
+      ==================================================
+    // Placed at the end of the document so the pages load faster
+    script(src='../Public/jquery/js/jquery.min.js')
+    script.
+      window.jQuery || document.write('<script src="../Public/bootstrap/assets/js/vendor/jquery-slim.min.js"><\\\/script>')
+      var BaseUrl = location.protocol+'//'+location.host;
+    script(src='../Public/bootstrap/assets/js/vendor/popper.min.js')
+    script(src='../Public/bootstrap/dist/js/bootstrap.min.js')
+    // IE10 viewport hack for Surface/desktop Windows 8 bug
+    script(src='../Public/bootstrap/assets/js/ie10-viewport-bug-workaround.js')
+    script(src='../Public/bootstrap/datepicker/js/bootstrap-datepicker.min.js')
+    script(src='../Public/bootstrap/datepicker/locales/bootstrap-datepicker.zh-TW.min.js')
+    script(src='../Public/js/Common.js')
+   block script
