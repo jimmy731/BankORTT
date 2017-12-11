@@ -3,7 +3,7 @@
 	outline: #3F464D4D solid 1px;
 }
 .table-ortt td, .table-ortt th {
-	font-size: .9rem;
+	font-size: .85rem;
     padding: .3rem;
 }
 
@@ -21,6 +21,12 @@
 .table-ortt th.ortt1,.table-ortt th.ortt2,.table-ortt th.ortt3
 {
 	width:90px;
+}
+
+.navbar-brand > img{
+	width:36px;
+	height:36px;
+	margin-right:5px;
 }
 
 @media (max-width: 767px) { 
