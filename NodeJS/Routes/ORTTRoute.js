@@ -24,7 +24,7 @@ router.use(function(req, res, next) {
 			}else{
 				var request = new sql.Request();
 				request.input('BaseDate', sql.Date, req.query.BaseDate)
-				request.query("SELECT * FROM [@DL_ORTT] T0 WHERE T0.U_RateDate >= DATEADD(Day,-7, @BaseDate) AND T0.U_RateDate <= DATEADD(Day, 7, @BaseDate)", function (err, result) {
+				request.query("SELECT * FROM [@DL_ORTT] T0 WHERE T0.U_RateDate >= DATEADD(Day,-30, @BaseDate) AND T0.U_RateDate <= DATEADD(Day, 30, @BaseDate)", function (err, result) {
 					sql.close();
 					if (err) {
 						logger.error(err);
